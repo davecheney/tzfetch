@@ -11,7 +11,7 @@ Installation
 Usage
 -----
 
-     tzfetch [-v] [-C dir] url1 url2 url2
+     tzfetch [-v] [-C dir] url1 url2 ...
 
 Licence
 -------

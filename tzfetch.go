@@ -67,8 +67,7 @@ func unpack(r io.Reader) error {
 		switch hdr.Typeflag {
 		case tar.TypeDir:
 			debugf("making directory: %v", path)
-			err := os.MkdirAll(path, os.FileMode(hdr.Mode))
-			if err != nil {
+			if err := os.MkdirAll(path, os.FileMode(hdr.Mode)); err != nil {
 				return err
 			}
 		case tar.TypeReg, tar.TypeRegA:
