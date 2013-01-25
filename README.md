@@ -12,4 +12,4 @@ Usage
 Licence
 -------
 
-This code is dervied from the Juju project and is released under the GNU Affero General Public License.
+This code is derived from the [Juju project](https://launchpad.net/juju-core) and is released under the GNU Affero General Public License.
