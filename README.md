@@ -3,11 +3,15 @@ tzfetch
 
 tzfetch streams and unpacks `.tar.gz` files from http servers.
 
+Installation
+------------
+
+     go get github.com/davecheney/tzfetch
+
 Usage
 -----
 
      tzfetch [-v] [-C dir] url1 url2 url2
-
 
 Licence
 -------
